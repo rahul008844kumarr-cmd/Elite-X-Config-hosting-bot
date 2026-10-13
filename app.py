@@ -25,10 +25,10 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv('BOT_TOKEN')                        ✅
-OWNER_ID_STR = os.getenv('OWNER_ID')                  ✅
-ADMIN_ID_STR = os.getenv('ADMIN_ID')                  ✅
-YOUR_USERNAME = os.getenv('YOUR_USERNAME', '@elitexconfig')  ✅
+TOKEN = os.getenv('BOT_TOKEN')                
+OWNER_ID_STR = os.getenv('OWNER_ID')     
+ADMIN_ID_STR = os.getenv('ADMIN_ID')           
+YOUR_USERNAME = os.getenv('YOUR_USERNAME', '@elitexconfig')
 UPDATE_CHANNEL = os.getenv('UPDATE_CHANNEL', 'https://t.me/+JyQcwO3ZA2UxMDJl')  ✅
 
 if not TOKEN:
